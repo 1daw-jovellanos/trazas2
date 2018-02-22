@@ -13,7 +13,7 @@ public class Traza2 {
         return k2.size();
     }
     
-    public void correr() {
+    public void runRunRunNanMeomchulSugaEobseo() {
         Set<Integer> miSet = new TreeSet<>();
         miSet.addAll(Arrays.asList(4, 5, 6, 5, 4, 2, 9, 2 + 4));
         String s = "foo";
@@ -30,6 +30,6 @@ public class Traza2 {
     }
     
     public static void main(String[] args) {
-        new Traza2().correr();
+        new Traza2().runRunRunNanMeomchulSugaEobseo();
     }
 }

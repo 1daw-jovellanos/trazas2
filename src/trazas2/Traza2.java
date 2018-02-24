@@ -3,8 +3,6 @@ package trazas2;
 import java.util.*;
 public class Traza2 {
 
-    
-    
     public int bar(String s, int i, Set<Integer> k) {
         s = "dum";
         i++;

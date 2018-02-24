@@ -13,7 +13,7 @@ public class Traza {
         }
     }
     
-    public void correr() {
+    public void runRunRun() {
         l.addAll(Arrays.asList("Gingko", "Boj", "Camelia", "Jazmín", "Magnolia"));
         Collections.sort(l);
         Collections.reverse(l);
@@ -25,6 +25,6 @@ public class Traza {
     }
     
     public static void main(String[] args) {
-        new Traza().correr();
+        new Traza().runRunRun();
     }
 }

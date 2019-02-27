@@ -31,7 +31,9 @@ public class IWantALittleSugarInMyBowl {
         List<String> words = new LinkedList();
         words.addAll(simone);
         Collections.sort(words);
-        words.forEach(word -> System.out.print(word));
+        for (String word: words) {
+            System.out.print(word);
+        }
         System.out.println();
     }
     

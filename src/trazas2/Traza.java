@@ -21,7 +21,9 @@ public class Traza {
         for (int i = 0; i < s.length(); i++) {
             foo(s.charAt(i));
         }
-        l.forEach(e -> System.out.format("#%s#", e));
+        for (String e : l) {
+            System.out.format("#%s#", e);
+        }
     }
     
     public static void main(String[] args) {
